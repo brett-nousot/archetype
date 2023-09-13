@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/brett-nousot/archetype/model.schema.json",
+    "title": "Model",
+    "description": "A representation of a machine learning model",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the model"
+        }
+    }
+}
